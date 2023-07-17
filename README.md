@@ -10,3 +10,26 @@
 
 ### 效果
 ![](./MDResource/01_STATIC_TRIANGLE/01_STATIC_TRIANGLE.png)
+
+## Project02:02_TRIANGLE_WITH_ELEMENT
+> 使用VAO，VBO,EBO绘制一个四边形
+
+**EBO:** EBO也叫IBO(Index Buffer Object),指使用索引号来标识需要绘制的顶点，使用EBO的好处是，几乎不会定义重复的点，假设需要绘制一个立方体，如果使用GL_QUADS
+绘制时，会存在某个点被多次定义，而使用IBO/EBO的方式就不会。
+
+**EBO部分定义**
+
+```c++
+GLfloat vertex[]={
+      -0.5f,-0.5f,0.0f,
+       0.0f,0.5f,0.0f,
+       0.5f,-0.5f,0.0f,
+       0.0f,-1.0f,0.0f
+    };
+GLuint index[] = {
+    0,1,2,
+    2,0,3};
+```
+
+### 效果
+![](./MDResource/02_TRIANGLE_WITH_ELEMENT/02_TRIANGLE_WITH_ELEMENT.png)
