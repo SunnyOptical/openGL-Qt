@@ -9,6 +9,7 @@
 **VAO:** VAO全称Vertex Array Object,顶点数组对象，存放保存顶点缓冲对象的指针，和其顶点数据的分布关系，便于解析顶点数据的内存模型。
 
 ### 效果
+<<<<<<< HEAD
 ![](./MDResource/01_STATIC_TRIANGLE/01_STATIC_TRIANGLE.png)
 
 ## Project02:02_TRIANGLE_WITH_ELEMENT
@@ -33,3 +34,6 @@ GLuint index[] = {
 
 ### 效果
 ![](./MDResource/02_TRIANGLE_WITH_ELEMENT/02_TRIANGLE_WITH_ELEMENT.png)
+=======
+![]("./MDResource/01_STATIC_TRIANGLE/01_STATIC_TRIANGLE.png")
+>>>>>>> a3a7489a0f8f85b52291e6d8ff90f31a4c08b84e

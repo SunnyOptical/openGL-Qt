@@ -37,7 +37,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = 08_CAMERA_WITH_YAW_PITCH1.0.0
-DISTDIR = /home/detc/openGL/08_CAMERA_WITH_YAW_PITCH/.tmp/08_CAMERA_WITH_YAW_PITCH1.0.0
+DISTDIR = /home/detc/openGL-Qt/08_CAMERA_WITH_YAW_PITCH/.tmp/08_CAMERA_WITH_YAW_PITCH1.0.0
 LINK          = g++
 LFLAGS        = -Wl,-rpath,/home/detc/Qt/5.15.2/gcc_64/lib
 LIBS          = $(SUBLIBS) /home/detc/Qt/5.15.2/gcc_64/lib/libQt5OpenGL.so /home/detc/Qt/5.15.2/gcc_64/lib/libQt5Widgets.so /home/detc/Qt/5.15.2/gcc_64/lib/libQt5Gui.so /home/detc/Qt/5.15.2/gcc_64/lib/libQt5Core.so -lGL -lpthread   
@@ -897,7 +897,7 @@ moc_openglwidget.cpp: openglwidget.h \
 		../../Qt/5.15.2/gcc_64/include/QtGui/QMouseEvent \
 		moc_predefs.h \
 		../../Qt/5.15.2/gcc_64/bin/moc
-	/home/detc/Qt/5.15.2/gcc_64/bin/moc $(DEFINES) --include /home/detc/openGL/08_CAMERA_WITH_YAW_PITCH/moc_predefs.h -I/home/detc/Qt/5.15.2/gcc_64/mkspecs/linux-g++ -I/home/detc/openGL/08_CAMERA_WITH_YAW_PITCH -I/home/detc/Qt/5.15.2/gcc_64/include -I/home/detc/Qt/5.15.2/gcc_64/include/QtOpenGL -I/home/detc/Qt/5.15.2/gcc_64/include/QtWidgets -I/home/detc/Qt/5.15.2/gcc_64/include/QtGui -I/home/detc/Qt/5.15.2/gcc_64/include/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include openglwidget.h -o moc_openglwidget.cpp
+	/home/detc/Qt/5.15.2/gcc_64/bin/moc $(DEFINES) --include /home/detc/openGL-Qt/08_CAMERA_WITH_YAW_PITCH/moc_predefs.h -I/home/detc/Qt/5.15.2/gcc_64/mkspecs/linux-g++ -I/home/detc/openGL-Qt/08_CAMERA_WITH_YAW_PITCH -I/home/detc/Qt/5.15.2/gcc_64/include -I/home/detc/Qt/5.15.2/gcc_64/include/QtOpenGL -I/home/detc/Qt/5.15.2/gcc_64/include/QtWidgets -I/home/detc/Qt/5.15.2/gcc_64/include/QtGui -I/home/detc/Qt/5.15.2/gcc_64/include/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include openglwidget.h -o moc_openglwidget.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:

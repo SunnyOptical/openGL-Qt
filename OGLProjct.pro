@@ -9,3 +9,4 @@ SUBDIRS += 01_STATIC_TRIANGLE \ #vao和vbo绘制三角形
            08_CAMERA_WITH_YAW_PITCH \ #支持俯仰角，航向角变化的摄像机系统
            09_PHONE_LIGHT \ #冯氏光照模型
            10_MATERIALS \ #材质系统:定义不同材质体现对光的不同反射与吸收状态
+           11_SPOT_LIGHT \ #实现聚光灯效果
