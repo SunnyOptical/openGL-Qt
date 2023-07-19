@@ -9,6 +9,10 @@ uniform vec3 lightColor;
 uniform vec3 lightPosition;
 uniform vec3 cameraPosition;
 float ambitStrength = 0.6;
+
+vec2 circleCenter = vec2(0.0, 0.0);
+float circleRadius = 0.3;
+
 void main(){
 
     vec3 normal = normalize(outNormal);
@@ -24,7 +28,15 @@ void main(){
     vec3 refDirection = reflect(-lightDirection,normal);
     float specularStrength = pow(max(dot(viewDirection, refDirection), 0.0), 32);
     vec3 sp = lightColor * specularStrength;
-    vec3 outColor = ambColor + diff + sp;
+    vec3 outColorFinally = (ambColor + diff + sp);
 
-    gl_FragColor =texture2D(texture,outUV)*vec4(outColor.xyz,1.0);
+    float distanceToCenter = distance(vec2(fragPosition.xy), circleCenter);
+
+    if(distanceToCenter > circleRadius){
+        gl_FragColor =texture2D(texture,outUV)*vec4(0.3,0.3,0.3,1.0);
+    }else{
+        gl_FragColor =texture2D(texture,outUV)*vec4(outColorFinally.xyz,1.0);
+
+    }
+
 }

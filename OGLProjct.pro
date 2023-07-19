@@ -10,3 +10,4 @@ SUBDIRS += 01_STATIC_TRIANGLE \ #vao和vbo绘制三角形
            09_PHONE_LIGHT \ #冯氏光照模型
            10_MATERIALS \ #材质系统:定义不同材质体现对光的不同反射与吸收状态
            11_SPOT_LIGHT \ #实现聚光灯效果
+           #12_CUBEMAP \ # openGL实现天空盒

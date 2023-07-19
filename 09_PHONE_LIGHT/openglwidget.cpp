@@ -131,7 +131,7 @@ void openGLWidget::initializeGL()
     m_shaderProgram.setAttributeBuffer(1,GL_FLOAT,3*sizeof(GLfloat),2,8*sizeof(GLfloat));
     m_shaderProgram.enableAttributeArray(1);
 
-    m_shaderProgram.setAttributeBuffer(2,GL_FLOAT,5*sizeof(GLfloat),2,8*sizeof(GLfloat));
+    m_shaderProgram.setAttributeBuffer(2,GL_FLOAT,5*sizeof(GLfloat),3,8*sizeof(GLfloat));
     m_shaderProgram.enableAttributeArray(2);
     m_shaderProgram.release();
     m_vao.release();

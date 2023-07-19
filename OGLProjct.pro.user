@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 10.0.2, 2023-07-14T02:12:59. -->
+<!-- Written by QtCreator 10.0.2, 2023-07-16T22:40:27. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -243,7 +243,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/detc/build-OGLProjct-Desktop_Qt_5_15_2_GCC_64bit-Debug/01_STATIC_TRIANGLE</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/detc/openGL-Qt/01_STATIC_TRIANGLE</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.1">
     <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
@@ -259,7 +259,39 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/detc/build-OGLProjct-Desktop_Qt_5_15_2_GCC_64bit-Debug/02_TRIANGLE_WITH_ELEMENT</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/detc/openGL-Qt/02_TRIANGLE_WITH_ELEMENT</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.10">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/detc/openGL-Qt/11_SPOT_LIGHT/11_SPOT_LIGHT.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/detc/openGL-Qt/11_SPOT_LIGHT/11_SPOT_LIGHT.pro</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/detc/openGL-Qt/11_SPOT_LIGHT</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.11">
+    <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="CustomOutputParsers"/>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/detc/openGL-Qt/12_CUBEMAP/12_CUBEMAP.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/detc/openGL-Qt/12_CUBEMAP/12_CUBEMAP.pro</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/detc/openGL-Qt/12_CUBEMAP</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.2">
     <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
@@ -275,7 +307,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/detc/build-OGLProjct-Desktop_Qt_5_15_2_GCC_64bit-Debug/03_QUAD_WITH_TEXTURE</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/detc/openGL-Qt/03_QUAD_WITH_TEXTURE</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.3">
     <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
@@ -291,7 +323,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/detc/build-OGLProjct-Desktop_Qt_5_15_2_GCC_64bit-Debug/04_LINEAR_TRANSFORM</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/detc/openGL-Qt/04_LINEAR_TRANSFORM</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.4">
     <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
@@ -307,7 +339,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/detc/build-OGLProjct-Desktop_Qt_5_15_2_GCC_64bit-Debug/05_3D_CUBE</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/detc/openGL-Qt/05_3D_CUBE</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.5">
     <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
@@ -323,7 +355,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/detc/build-OGLProjct-Desktop_Qt_5_15_2_GCC_64bit-Debug/06_3D_CUBE_WITH_TEXTURE</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/detc/openGL-Qt/06_3D_CUBE_WITH_TEXTURE</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.6">
     <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
@@ -339,7 +371,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/detc/build-OGLProjct-Desktop_Qt_5_15_2_GCC_64bit-Debug/07_3D_WITH_CAMERA</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/detc/openGL-Qt/07_3D_WITH_CAMERA</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.7">
     <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
@@ -355,7 +387,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/detc/build-OGLProjct-Desktop_Qt_5_15_2_GCC_64bit-Debug/08_CAMERA_WITH_YAW_PITCH</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/detc/openGL-Qt/08_CAMERA_WITH_YAW_PITCH</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.8">
     <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
@@ -371,7 +403,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/detc/build-OGLProjct-Desktop_Qt_5_15_2_GCC_64bit-Debug/09_PHONE_LIGHT</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/detc/openGL-Qt/09_PHONE_LIGHT</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.9">
     <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
@@ -387,9 +419,9 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/detc/build-OGLProjct-Desktop_Qt_5_15_2_GCC_64bit-Debug/10_MATERIALS</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/detc/openGL-Qt/10_MATERIALS</value>
    </valuemap>
-   <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">10</value>
+   <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">12</value>
   </valuemap>
  </data>
  <data>
